@@ -67,18 +67,18 @@ body {
   transform: scale(1.044);
 }
 
-/* ===== СТИЛИ ДЛЯ ФОРМЫ ===== */
+
 .feedback-form {
   width: 408px;
-  margin: 0 auto;      /* центрируем форму на странице */
+  margin: 0 auto;    
   padding: 24px;
   background-color: #fff;
-  border-radius: 8px;  /* скругление углов */
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* лёгкая тень */
+  border-radius: 8px;  
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
 }
 
 .feedback-form label {
-  display: block;      /* чтобы label занимал всю ширину */
+  display: block;      
   margin-bottom: 8px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
@@ -90,9 +90,9 @@ body {
 
 .feedback-form input,
 .feedback-form textarea {
-  width: 100%;         /* растягиваем на всю ширину родителя */
+  width: 100%;         
   padding: 8px 16px;
-  margin-top: 4px;      /* небольшой отступ сверху внутри label */
+  margin-top: 4px;      
   border: 1px solid #808080;
   border-radius: 4px;
   font-family: 'Montserrat', sans-serif;
@@ -100,25 +100,25 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #2e2f42;
-  box-sizing: border-box; /* чтобы padding не увеличивал ширину */
+  box-sizing: border-box;
   transition: border-color 0.3s ease;
   resize: none; 
 }
 
 .feedback-form input:hover,
 .feedback-form textarea:hover {
-  border-color: #000;  /* при наведении рамка темнеет */
+  border-color: #000;  
 }
 
 .feedback-form input:focus,
 .feedback-form textarea:focus {
   outline: none;
-  border-color: #4e75ff; /* синяя рамка при фокусе */
+  border-color: #4e75ff; 
 }
 
 .feedback-form button {
   display: block;
-  min-width: 95px;      /* кнопка не меньше 95px */
+  min-width: 95px;     
   padding: 8px 16px;
   margin-top: 16px;
   background-color: #4e75ff;
@@ -135,5 +135,5 @@ body {
 }
 
 .feedback-form button:hover {
-  background-color: #6c8cff; /* светлее при наведении */
+  background-color: #6c8cff; 
 }
